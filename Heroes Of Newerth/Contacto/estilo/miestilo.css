@@ -1,0 +1,20 @@
+.F{
+	font-family: Oswald, Arial;
+	font-size:25px;
+	color:#FFAA00;
+}
+p{
+	color:#FFCC00;
+	font-family: Oswald, Arial;
+	font-size:17px;	
+}
+.letra{
+	float:center;
+	font-size:2em;
+	color:#AAAAAA;
+}
+.Move{
+	font-family: 'Open Sans', Sans-serif, Arial, Helvetica;
+	font-size:25px;
+	color:#FFAA00;
+}

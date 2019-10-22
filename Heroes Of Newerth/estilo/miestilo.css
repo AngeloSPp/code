@@ -1,0 +1,68 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body{
+	background:	#e6e6e6;
+}
+header, .main, footer{
+	width: 90%;
+	max-width: 1000px;
+	margin:20px auto;
+}
+header nav{
+	background: #000;
+	overflow: hidden;
+}
+header nav ul{
+	list-style: none;
+}
+header nav ul li{
+	float: left;
+}
+header nav ul li a {
+	font size:20px;
+	font-weight: bold;
+	font-family: "Helvetica";
+	padding: 10px 20px;
+	display: block;
+	color: #fff;
+	text-decoration: none;
+}
+header nav ul li a:hover{
+	background: #ffaa00;
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500 ms ease;
+}
+.main .articles{
+	font-family: "Helvetica";
+	width:68.5%;
+	margin-right: 1.5%;
+	float:left;
+}
+.main .articles article{
+	padding: 20px;
+	background: #fff;
+	margin-bottom: 20px;
+}
+aside{
+	font-family: "Bookman Old Style";
+	width: 30%;
+	background: #ff8000;
+	float: left;
+	padding: 20px;
+	box-sizing:border-box;
+}
+footer{
+		font-family: "Bookman Old Style";
+		background: #000;
+		color: #fff;
+		clear:both;
+		padding: 10px 0px;
+		text-align: center;
+}
+header nav a:hover{
+	background: #f56f3a;
+	border-radius: 50px;
+}
